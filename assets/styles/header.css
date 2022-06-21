@@ -1,0 +1,25 @@
+.header__wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 0;
+    width: 100%;
+}
+
+.header__title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header__date {
+    color: #C4C1CF;
+    font-weight: 300;
+}
+
+.header__logo {
+    position: absolute;
+    right: -112px;
+    top: 0;
+    cursor: pointer;
+}
