@@ -1,0 +1,23 @@
+@import "src/assets/variables";
+.footer {
+  height: 96px;
+  width: 100%;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-radius: 32px 32px 0 0;
+  margin-top: auto;
+  background-color: $blue_900;
+}
+
+.footer__btn {
+  width: 101px;
+  height: 48px;
+  padding: 15px 24px;
+  font-size: 18px;
+  border-radius: 32px;
+  background-color: $gray_700;
+  color: $gray_300;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
