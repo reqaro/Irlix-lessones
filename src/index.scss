@@ -26,10 +26,18 @@ a {
   flex-direction: column;
   min-height: 100vh;
   overflow: hidden;
+  padding-bottom: 96px;
 }
 
 .container {
   max-width: 1144px;
   margin: 0 auto;
   padding: 0 32px;
+}
+
+
+@media (max-width: 408px) {
+  .container {
+    padding: 0 5px;
+  }
 }

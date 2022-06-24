@@ -1,3 +1,21 @@
-.main {
+.home {
   width: 100%;
+}
+
+.home-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-gap: 32px;
+}
+
+.home-list__element {
+  border-radius: 32px;
+  overflow: hidden;
+  height: 425px;
+}
+
+@media (max-width: 408px) {
+  .home-list {
+    grid-template-columns: repeat(auto-fill, minmax(272px, 1fr));
+  }
 }
