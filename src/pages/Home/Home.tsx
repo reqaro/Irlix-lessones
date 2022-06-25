@@ -1,7 +1,7 @@
 import React from "react";
 import { Cocktail } from "types";
 import "./Home.scss";
-import { CocktailCard } from "@components/CocktailCard";
+import { Card } from "@components/Card";
 
 const Home = () => {
   const cocktailItems = [
@@ -41,7 +41,7 @@ const Home = () => {
         <div className={"home-list home-list--margin"}>
           {cocktailItems.map((cocktail: Cocktail) => (
             <div className={"home-list__element"} key={cocktail.id}>
-              <CocktailCard
+              <Card
                 img={cocktail.img}
                 alcoholByVolume={cocktail.alcoholByVolume}
                 name={cocktail.name}

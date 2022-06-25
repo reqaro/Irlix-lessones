@@ -1,0 +1,65 @@
+@import "src/assets/variables";
+
+.card {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.card__img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card__info {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 24px;
+  cursor: pointer;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 49%, rgba(14, 13, 19, 0.9) 90%);
+}
+
+.degree {
+  position: absolute;
+  top: 22px;
+  left: 18px;
+  padding: 8px 16px;
+  background-color: $blue_900;
+  border-radius: 24px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.degree__value {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.degree__title {
+  font-weight: 300;
+  font-size: 14px;
+  color: $gray_300;
+  text-transform: capitalize;
+}
+
+.card__name {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.card__description {
+  font-weight: 300;
+  color: $gray_300;
+}
