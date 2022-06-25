@@ -1,6 +1,8 @@
 import React from "react";
 import { Icons } from "../UI/Icons";
 import "./Header.scss";
+import { Categories } from "@components/Categories/";
+
 const Header = () => {
   return (
     <header className="header">
@@ -14,6 +16,7 @@ const Header = () => {
             <Icons name={"logo"} />
           </div>
         </div>
+        <Categories />
       </div>
     </header>
   );

@@ -1,9 +1,14 @@
 @import "src/assets/variables";
+
 .footer {
   height: 96px;
   width: 100%;
   padding-top: 24px;
   padding-bottom: 24px;
+  position: fixed;
+  z-index: 100;
+  bottom: 0;
+  left: 0;
   border-radius: 32px 32px 0 0;
   margin-top: auto;
   background-color: $blue_900;

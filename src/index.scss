@@ -12,7 +12,7 @@
 }
 
 body {
-  background-color: $body-background-color;
+  background-color: $blue_700;
   color: white;
   font-size: 18px;
 }
@@ -26,10 +26,17 @@ a {
   flex-direction: column;
   min-height: 100vh;
   overflow: hidden;
+  padding-bottom: 96px;
 }
 
 .container {
-  max-width: 1140px;
+  max-width: 1144px;
   margin: 0 auto;
   padding: 0 32px;
+}
+
+@media (max-width: 408px) {
+  .container {
+    padding: 0 8px;
+  }
 }
