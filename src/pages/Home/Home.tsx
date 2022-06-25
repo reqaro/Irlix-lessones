@@ -38,7 +38,7 @@ const Home = () => {
   return (
     <main className="home">
       <div className="container">
-        <div className={"home-list hove-list--margin"}>
+        <div className={"home-list home-list--margin"}>
           {cocktailItems.map((cocktail: Cocktail) => (
             <div className={"home-list__element"} key={cocktail.id}>
               <CocktailCard
