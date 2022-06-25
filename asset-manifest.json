@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Irlix-lessones/static/css/main.a5173827.css",
+    "main.js": "/Irlix-lessones/static/js/main.40e1bdc9.js",
+    "static/media/Roboto-Light.eot": "/Irlix-lessones/static/media/Roboto-Light.1507921b0fac6fcd7634.eot",
+    "static/media/Roboto-Light.ttf": "/Irlix-lessones/static/media/Roboto-Light.368aee5f4784ab912d2d.ttf",
+    "static/media/Roboto-Regular.eot": "/Irlix-lessones/static/media/Roboto-Regular.4be1a2207d30e04db979.eot",
+    "static/media/Roboto-Regular.ttf": "/Irlix-lessones/static/media/Roboto-Regular.cfe3602cde0ad1c9ae0e.ttf",
+    "static/media/Roboto-Bold.eot": "/Irlix-lessones/static/media/Roboto-Bold.c54000334e0e020bd71a.eot",
+    "static/media/Roboto-Bold.ttf": "/Irlix-lessones/static/media/Roboto-Bold.c477ec326ec5faea4705.ttf",
+    "static/media/Roboto-Medium.eot": "/Irlix-lessones/static/media/Roboto-Medium.95cbe76b46f70043953c.eot",
+    "static/media/Roboto-Medium.ttf": "/Irlix-lessones/static/media/Roboto-Medium.681f96db2bcb69f520b5.ttf",
+    "static/media/Roboto-Light.woff": "/Irlix-lessones/static/media/Roboto-Light.f4ec4fea7ef7dee6525f.woff",
+    "static/media/Roboto-Medium.woff": "/Irlix-lessones/static/media/Roboto-Medium.0a7cb597e1fb1bb33949.woff",
+    "static/media/Roboto-Bold.woff": "/Irlix-lessones/static/media/Roboto-Bold.a4fb78d3d4fead02b7f8.woff",
+    "static/media/Roboto-Regular.woff": "/Irlix-lessones/static/media/Roboto-Regular.3aed196a9a9601ddacf7.woff",
+    "static/media/icons.svg": "/Irlix-lessones/static/media/icons.e0cc59cf6aa9225b19f30db7f003cb9a.svg",
+    "index.html": "/Irlix-lessones/index.html",
+    "main.a5173827.css.map": "/Irlix-lessones/static/css/main.a5173827.css.map",
+    "main.40e1bdc9.js.map": "/Irlix-lessones/static/js/main.40e1bdc9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5173827.css",
+    "static/js/main.40e1bdc9.js"
+  ]
+}
