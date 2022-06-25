@@ -1,5 +1,11 @@
 @import "src/assets/variables";
 
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: $blue_700;
+}
+
 .header__wrapper {
   position: relative;
   display: flex;
